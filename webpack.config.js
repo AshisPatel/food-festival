@@ -44,7 +44,7 @@ module.exports = {
             jQuery: 'jquery'
         }),
         new BundleAnalyzerPlugin({
-            analyzerMode: "static"
+            analyzerMode: "disabled"
         })
     ],
     mode: 'development'
